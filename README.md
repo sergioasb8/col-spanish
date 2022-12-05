@@ -7,8 +7,8 @@ The purpose of the package is to create a group of functions that help to work w
 
 ### Features
 + normalization functions:
-    - del_punctuation -> delete punctuation marks
-    - del_accents -> delete accents
+    - delete punctuation marks
+    - delete accents
 
 ### Geting Started
 The package can be found in Pypi, hence you can install it using pip
@@ -23,6 +23,11 @@ Using the normalization function to remove punctuation marks
 >>> del_punctuation('Hola, ¿cómo estas? ¡bien!')
 ```
 
+Using the normalization function to remove accents
+```python
+>>> from col_spanish import del_accents
+>>> del_accents('el día sábado quiero más comida!')
+```
 
 ### Examples
 ```python
@@ -35,6 +40,18 @@ Hola cómo estas bien
 >>> normalized_text = del_punctuation(text)
 >>> normalized_text
 Hola cómo estas bien
+```
+
+```python
+>>> from python col_spanish
+
+>>> del_accents('el día sábado quiero más comida!')
+el dia sabado quiero mas comida!
+
+>>> text = "el día sábado quiero más comida!"
+>>> normalized_text = del_accents(text)
+>>> normalized_text
+el dia sabado quiero mas comida!
 ```
 
 ### Contribution
