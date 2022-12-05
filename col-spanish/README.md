@@ -27,7 +27,7 @@ Using the normalization function to remove accents
 ```python
 >>> from col_spanish import del_accent
 >>> del_accent('el día sábado quiero más comida!')
-
+```
 
 ### Examples
 ```python
