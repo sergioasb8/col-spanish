@@ -44,7 +44,7 @@ Using the normalization function to remove accents
 
 .. code:: python
 
-   >>> from col_spanish import del_accents
+   >>> from col_spanish import del_accent
    >>> del_accents('el día sábado quiero más comida!')
 
 Examples
@@ -64,13 +64,13 @@ Examples
 
 .. code:: python
    
-   >>> from python col_spanish
+   >>> from col_spanish import del_accent
 
-   >>> del_accents('el día sábado quiero más comida!')
+   >>> del_accent('el día sábado quiero más comida!')
    el dia sabado quiero mas comida!
 
    >>> text = "el día sábado quiero más comida!"
-   >>> normalized_text = del_accents(text)
+   >>> normalized_text = del_accent(text)
    >>> normalized_text
    el dia sabado quiero mas comida!
 

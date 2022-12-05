@@ -25,8 +25,8 @@ Using the normalization function to remove punctuation marks
 
 Using the normalization function to remove accents
 ```python
->>> from col_spanish import del_accents
->>> del_accents('el día sábado quiero más comida!')
+>>> from col_spanish import del_accent
+>>> del_accent('el día sábado quiero más comida!')
 
 
 ### Examples
@@ -43,13 +43,13 @@ Hola cómo estas bien
 ```
 
 ```python
->>> from python col_spanish
+>>> from col_spanish import del_accent
 
->>> del_accents('el día sábado quiero más comida!')
+>>> del_accent('el día sábado quiero más comida!')
 el dia sabado quiero mas comida!
 
 >>> text = "el día sábado quiero más comida!"
->>> normalized_text = del_accents(text)
+>>> normalized_text = del_accent(text)
 >>> normalized_text
 el dia sabado quiero mas comida!
 ```

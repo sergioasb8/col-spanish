@@ -62,7 +62,7 @@ def del_punctuation(text):
 
 
 # clean the text, delete accents
-def del_accents(text):
+def del_accent(text):
     """
     Function to delete accents from the text
 
