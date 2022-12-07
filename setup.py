@@ -39,7 +39,7 @@ def find_meta(meta):
 if __name__ == "__main__":
 
     setup(
-        name = "mypackage",
+        name = "col_spanish",
         decription = find_meta("description"),
         license = find_meta("license"),
         url = find_meta("url"),
