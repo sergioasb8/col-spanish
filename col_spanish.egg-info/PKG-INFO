@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: col-spanish
-Version: 0.0.2
+Version: 0.0.3
 Home-page: https://github.com/sergioasb8/col-spanish
 Author: Sergio A. Sosa Bautista
 License: MIT License
@@ -10,6 +10,7 @@ Classifier: Natural Language :: English
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independet
 Classifier: Programming Language :: Python
+License-File: LICENSE
 
 # col-spanish
 A collection of tools to work with text write in Spanish (Colombia)

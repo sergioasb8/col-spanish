@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "col_spanish"
-version = "0.0.2"
+version = "0.0.3"
 description = "Functions that help to work with text in spanish (Colombia)"
 authors = ["Sergio Sosa Bautista <sergioasb@gmail.com>"]
 readme = "README.md"

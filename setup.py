@@ -11,7 +11,7 @@ CLASSIFIERS = [
     "Intended Audience :: Developers",
     "Natural Language :: English",
     "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independet",
+    "Operating System :: OS Independent",
     "Programming Language :: Python",
 ]
 HERE = os.path.abspath(os.path.dirname(__file__))
