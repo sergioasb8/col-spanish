@@ -21,6 +21,7 @@ Using the normalization function to remove punctuation marks
 ```python
 >>> from col_spanish import del_punctuation
 >>> del_punctuation('Hola, ¿cómo estas? ¡bien!')
+>>>
 ```
 
 Using the normalization function to remove accents
