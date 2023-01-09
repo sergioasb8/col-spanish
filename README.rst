@@ -19,9 +19,10 @@ Features
    -  delete accents
 
 -  encrypting functions:
+
    -  set_characters: 
-         > delete duplicate characters inside the sentence. save it in the same order, 
-         > as it appears in the sentence not in an aleatory order as set()
+         delete duplicate characters inside the sentence. save it in the same order, 
+         as it appears in the sentence not in an aleatory order as set()
    -  create_dictionary: 
          > Recieves two lists and create a dictionary where one is the key and the
          > other one is the value.
