@@ -24,10 +24,10 @@ Features
          delete duplicate characters inside the sentence. save it in the same order, 
          as it appears in the sentence not in an aleatory order as set()
    -  create_dictionary: 
-         > Recieves two lists and create a dictionary where one is the key and the
-         > other one is the value.
+         Recieves two lists and create a dictionary where one is the key and the
+         other one is the value.
    -  generate_pass: 
-         > This function create a safe encrypted version of your data.
+         This function create a safe encrypted version of your data.
 
 Getting Started
 ---------------
