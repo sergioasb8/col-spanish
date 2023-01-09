@@ -1,9 +1,12 @@
 # -*- Coding: utf-8 -*-
 
 # col spanish
-# version 0.0.1
+# version 0.0.4
 
 # ---- List of functions ----
+
+# del_punctuation
+# del_accent
 
 delete_punctuation_dict = {
     "¿": "",
