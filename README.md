@@ -10,6 +10,16 @@ The purpose of the package is to create a group of functions that help to work w
     - delete punctuation marks
     - delete accents
 
++ encrypting functions:
+    - set_characters: 
+        > delete duplicate characters inside the sentence. save it in the same order, 
+        > as it appears in the sentence not in an aleatory order as set()
+    - create_dictionary: 
+        > Recieves two lists and create a dictionary where one is the key and the
+        > other one is the value.
+    - generate_pass: 
+        > This function create a safe encrypted version of your data.
+
 ### Geting Started
 The package can be found in Pypi, hence you can install it using pip
 ```bash
@@ -24,12 +34,6 @@ Using the normalization function to remove punctuation marks
 >>>
 ```
 
-Using the normalization function to remove accents
-```python
->>> from col_spanish import del_accent
->>> del_accent('el día sábado quiero más comida!')
-```
-
 ### Examples
 ```python
 >>> from col_spanish import del_punctuation
@@ -41,18 +45,6 @@ Hola cómo estas bien
 >>> normalized_text = del_punctuation(text)
 >>> normalized_text
 Hola cómo estas bien
-```
-
-```python
->>> from col_spanish import del_accent
-
->>> del_accent('el día sábado quiero más comida!')
-el dia sabado quiero mas comida!
-
->>> text = "el día sábado quiero más comida!"
->>> normalized_text = del_accent(text)
->>> normalized_text
-el dia sabado quiero mas comida!
 ```
 
 ### Contribution
