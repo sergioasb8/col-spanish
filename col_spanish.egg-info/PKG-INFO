@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: col-spanish
-Version: 0.0.3
+Version: 0.0.4
 Home-page: https://github.com/sergioasb8/col-spanish
 Author: Sergio A. Sosa Bautista
 License: MIT License
@@ -8,7 +8,7 @@ Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Developers
 Classifier: Natural Language :: English
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independet
+Classifier: Operating System :: OS Independent
 Classifier: Programming Language :: Python
 License-File: LICENSE
 
@@ -24,6 +24,16 @@ The purpose of the package is to create a group of functions that help to work w
     - delete punctuation marks
     - delete accents
 
++ encrypting functions:
+    - set_characters: 
+        > delete duplicate characters inside the sentence. save it in the same order, 
+        > as it appears in the sentence not in an aleatory order as set()
+    - create_dictionary: 
+        > Recieves two lists and create a dictionary where one is the key and the
+        > other one is the value.
+    - generate_pass: 
+        > This function create a safe encrypted version of your data.
+
 ### Geting Started
 The package can be found in Pypi, hence you can install it using pip
 ```bash
@@ -34,38 +44,21 @@ pip install col_spanish
 Using the normalization function to remove punctuation marks
 ```python
 >>> from col_spanish import del_punctuation
->>> del_punctuation('Hola, Â¿cÃ³mo estas? Â¡bien!')
-```
-
-Using the normalization function to remove accents
-```python
->>> from col_spanish import del_accent
->>> del_accent('el dÃ­a sÃ¡bado quiero mÃ¡s comida!')
+>>> del_punctuation('Hola, ¿cómo estas? ¡bien!')
+>>>
 ```
 
 ### Examples
 ```python
 >>> from col_spanish import del_punctuation
 
->>> del_punctuation('Hola, Â¿cÃ³mo estas? Â¡bien!')
-Hola cÃ³mo estas bien
+>>> del_punctuation('Hola, ¿cómo estas? ¡bien!')
+Hola cómo estas bien
 
->>> text = "Hola, Â¿cÃ³mo estas? Â¡bien!"
+>>> text = "Hola, ¿cómo estas? ¡bien!"
 >>> normalized_text = del_punctuation(text)
 >>> normalized_text
-Hola cÃ³mo estas bien
-```
-
-```python
->>> from col_spanish import del_accent
-
->>> del_accent('el dÃ­a sÃ¡bado quiero mÃ¡s comida!')
-el dia sabado quiero mas comida!
-
->>> text = "el dÃ­a sÃ¡bado quiero mÃ¡s comida!"
->>> normalized_text = del_accent(text)
->>> normalized_text
-el dia sabado quiero mas comida!
+Hola cómo estas bien
 ```
 
 ### Contribution

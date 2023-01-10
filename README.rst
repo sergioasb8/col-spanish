@@ -1,14 +1,14 @@
-health-indices
-==============
+col-spanish
+===========
 
 A collection of tools to work with text write in Spanish (Colombia)
 
 Purpose of the Package
----------------------
+----------------------
 
--  The purpose of the package is to create a group of functions that 
-    help to work with text in spanish, to be more accurate with 
-    spanish from Colombia.
+The purpose of the package is to create a group of functions that help
+to work with text in spanish, to be more accurate with spanish from
+Colombia.
 
 Features
 --------
@@ -20,22 +20,18 @@ Features
 
 -  encrypting functions:
 
-   -  set_characters: 
-         delete duplicate characters inside the sentence. save it in the same order, 
-         as it appears in the sentence not in an aleatory order as set()
-   -  create_dictionary: 
-         Recieves two lists and create a dictionary where one is the key and the
-         other one is the value.
-   -  generate_pass: 
-         This function create a safe encrypted version of your data.
+   -  set_characters: > delete duplicate characters inside the sentence.
+      save it in the same order, > as it appears in the sentence not in
+      an aleatory order as set()
+   -  create_dictionary: > Recieves two lists and create a dictionary
+      where one is the key and the > other one is the value.
+   -  generate_pass: > This function create a safe encrypted version of
+      your data.
 
-Getting Started
----------------
+Geting Started
+--------------
 
-The package can be found on pypi hence you can install it using pip
-
-Installation
-~~~~~~~~~~~~
+The package can be found in Pypi, hence you can install it using pip
 
 .. code:: bash
 
@@ -50,16 +46,10 @@ Using the normalization function to remove punctuation marks
 
    >>> from col_spanish import del_punctuation
    >>> del_punctuation('Hola, ¿cómo estas? ¡bien!')
-
-Using the normalization function to remove accents
-
-.. code:: python
-
-   >>> from col_spanish import del_accent
-   >>> del_accents('el día sábado quiero más comida!')
+   >>>
 
 Examples
-~~~~~~~~
+--------
 
 .. code:: python
 
@@ -73,26 +63,12 @@ Examples
    >>> normalized_text
    Hola cómo estas bien
 
-.. code:: python
-   
-   >>> from col_spanish import del_accent
-
-   >>> del_accent('el día sábado quiero más comida!')
-   el dia sabado quiero mas comida!
-
-   >>> text = "el día sábado quiero más comida!"
-   >>> normalized_text = del_accent(text)
-   >>> normalized_text
-   el dia sabado quiero mas comida!
-
 Contribution
 ------------
 
-Contributions are welcolme.
-If you notice a bug let us know, thanks!
+Contributions are welcolme. If you notice a bug let us know, thanks!
 
 Author
 ------
 
--  Main Maintainer: Sergio A. Sosa Bautista
--  Sergio A. Sosa Bautista (@sergioasb8)
+-  Main maintainer: Sergio A. Sosa Bautista (@sergioasb8)

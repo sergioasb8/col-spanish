@@ -4,6 +4,7 @@ pyproject.toml
 setup.py
 col_spanish/__init__.py
 col_spanish/col_spanish.py
+col_spanish/encrypt.py
 col_spanish.egg-info/PKG-INFO
 col_spanish.egg-info/SOURCES.txt
 col_spanish.egg-info/dependency_links.txt
